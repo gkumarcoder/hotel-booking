@@ -9,6 +9,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
+
 @Entity
 @Table(name = "Reservation")
 public class ReservationEntity {
