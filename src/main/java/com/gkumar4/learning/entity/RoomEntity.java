@@ -12,7 +12,8 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
-// RoomEntity CALSS
+
+
 @Entity
 @Table(name = "Room")
 public class RoomEntity {
