@@ -15,7 +15,6 @@ import static io.restassured.RestAssured.given;
 @SpringBootTest(classes = LinkedInLearningFullStackAppAngularSpringBootApplication.class,
         webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class ReservationResourceTest {
-
     private static final Integer EXPECTED_ITEM_ID_FOR_GET = 1;
 
     @LocalServerPort
