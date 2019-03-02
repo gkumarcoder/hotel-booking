@@ -20,7 +20,6 @@ public class ReservationResourceTest {
 
     @LocalServerPort
     private int port;
-
     @Before
     public void setUp() throws Exception {
 
