@@ -14,6 +14,7 @@ public class ReservationRequestToReservationEntityConverter implements Converter
         reservationEntity.setCheckin(source.getCheckin());
         reservationEntity.setCheckout(source.getCheckout());
         if (null != source.getId())
+            
             reservationEntity.setId(source.getId());
 
         return reservationEntity;
